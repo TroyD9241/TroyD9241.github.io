@@ -2443,3 +2443,22 @@ input, select, textarea {
 					}
 
 	}
+
+.libraries {
+	margin-top: 50px;
+}
+
+.upper-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+.lower-container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+
+
+}
