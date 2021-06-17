@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "agustina-reg";
+    src: url("../../fonts/Agutina\ 400.otf");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #32bebf;
+    background-color: white;
+}
+
+.nav-button {
+    cursor: pointer;
+    color: #32bebf;
+}
+
+
+.home-button {
+    margin-left: 5em;
+    font-family: "agustina-reg";
+    color: #32bebf;
+    font-size: 18px;
+}
+
+.right-buttons {
+    margin-right: 5em;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
