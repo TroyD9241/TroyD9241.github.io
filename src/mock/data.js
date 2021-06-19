@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'resume.png',
-  paragraphOne: 'Hello everyone 😁 my name is Troy Dawson and I\'m\ a recent graduate from App Academy who is currently looking for my first opportunity in software engineering.',
-  paragraphTwo: 'I\'\m bilingual and for two years I studied and worked in Japan while pursuing my undergraduate degree.',
-  paragraphThree: 'In my free time I enjoy learning about Machine Learning, DataScience, and improving my skills in Python. Outside of Tech I enjoy traveling, gaming, anime, golfing, and learning about people.',
+  paragraphOne:
+    "Hello everyone 😁 my name is Troy Dawson and I'm a recent graduate from App Academy who is currently looking for my first opportunity in software engineering.",
+  paragraphTwo:
+    "I'm bilingual and for two years I studied and worked in Japan while pursuing my undergraduate degree.",
+  paragraphThree:
+    'In my free time I enjoy learning about Machine Learning, DataScience, and improving my skills in Python. Outside of Tech I enjoy traveling, gaming, anime, golfing, and learning about people.',
   resume: 'https://drive.google.com/file/d/1wJ-NFFsFVAe0K3vnrtJi7GH-NZOGjaqk/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -37,18 +40,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'BazaarSnip.PNG',
     title: 'Bazaar',
-    info: '',
-    info2: '',
+    info: 'Bazaar was created with the site Etsy in mind using a stack of Python(Flask) & React-Redux.',
+    info2:
+      "Bazaar features a robust feature list, a detailed version can be found on the github repo(👇See Live!👇) 😁 All of the data on Bazaar is live from the Etsy API's active listing endpoint.",
     url: 'https://bazaar-aa.herokuapp.com/',
     repo: 'https://github.com/tristan-88/BaZaar', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'medianSnip.PNG',
     title: 'Median',
-    info: '',
+    info: 'Median was designed by a team of student-software engineers. Utilizing a MEAN stack. ',
     info2: '',
     url: 'https://median-article-app.herokuapp.com/',
     repo: 'https://github.com/jxnprince/Median', // if no repo, the button will not show up
@@ -58,7 +62,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '262-930-4574',
-  btn: 'troydawson@troyd.dev',
+  btn: 'troyd9216@gmail.com',
   email: '',
 };
 
