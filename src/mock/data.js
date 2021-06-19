@@ -31,10 +31,10 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Deviantart',
-    info: '',
-    info2: '',
+    img: 'deviant.PNG',
+    title: 'Reias-Dungeon',
+    info: 'RD was built as my solo project using a Python-React-Redux stack.',
+    info2: 'RD was built as a clone of DeviantArt. Allowing users to create posts, comment, like, and search for creators posts. ',
     url: 'https://deviantart-aa.herokuapp.com/',
     repo: 'https://github.com/TroyD9241/Reias-Dungeon-V2', // if no repo, the button will not show up
   },
