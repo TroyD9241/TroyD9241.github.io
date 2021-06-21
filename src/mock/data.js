@@ -34,7 +34,8 @@ export const projectsData = [
     img: 'deviant.PNG',
     title: 'Reias-Dungeon',
     info: 'RD was built as my solo project using a Python-React-Redux stack.',
-    info2: 'RD was built as a clone of DeviantArt. Allowing users to create posts, comment, like, and search for creators posts. ',
+    info2:
+      'RD was built as a clone of DeviantArt. Allowing users to create posts, comment, like, and search for creators posts. ',
     url: 'https://deviantart-aa.herokuapp.com/',
     repo: 'https://github.com/TroyD9241/Reias-Dungeon-V2', // if no repo, the button will not show up
   },
@@ -42,7 +43,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'BazaarSnip.PNG',
     title: 'Bazaar',
-    info: 'Bazaar was created with the site Etsy in mind using a stack of Python(Flask) & React-Redux.',
+    info:
+      'Bazaar was created with the site Etsy in mind using a stack of Python(Flask) & React-Redux.',
     info2:
       "Bazaar features a robust feature list, a detailed version can be found on the github repo(👇See Live!👇) 😁 All of the data on Bazaar is live from the Etsy API's active listing endpoint.",
     url: 'https://bazaar-aa.herokuapp.com/',
@@ -53,7 +55,7 @@ export const projectsData = [
     img: 'medianSnip.PNG',
     title: 'Median',
     info: 'Median was designed by a team of student-software engineers. Utilizing a MEAN stack. ',
-    info2: '',
+    info2: 'I spent a large portion of my time creating the API and backend functionality. ',
     url: 'https://median-article-app.herokuapp.com/',
     repo: 'https://github.com/jxnprince/Median', // if no repo, the button will not show up
   },
