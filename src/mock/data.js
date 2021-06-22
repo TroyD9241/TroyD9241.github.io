@@ -54,7 +54,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'medianSnip.PNG',
     title: 'Median',
-    info: 'Median was designed by a team of student-software engineers. Utilizing a MEAN stack. ',
+    info: 'Median was designed by a team of student-software engineers. Utilizing a MERN stack. ',
     info2: 'I spent a large portion of my time creating the API and backend functionality. ',
     url: 'https://median-article-app.herokuapp.com/',
     repo: 'https://github.com/jxnprince/Median', // if no repo, the button will not show up
