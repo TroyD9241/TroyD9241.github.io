@@ -50,15 +50,6 @@ export const projectsData = [
     url: 'https://bazaar-aa.herokuapp.com/',
     repo: 'https://github.com/tristan-88/BaZaar', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'medianSnip.PNG',
-    title: 'Median',
-    info: 'Median was designed by a team of student-software engineers. Utilizing a MERN stack. ',
-    info2: 'I spent a large portion of my time creating the API and backend functionality. ',
-    url: 'https://median-article-app.herokuapp.com/',
-    repo: 'https://github.com/jxnprince/Median', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
